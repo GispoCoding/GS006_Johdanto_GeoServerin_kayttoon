@@ -18,7 +18,7 @@ GeoServerin palvelimeen on ladattu erilaisia aineistoja ja GeoServerin **Monitor
 
 ## **Yleistiedot GeoServerin palvelimesta**
 
-Avaa GeoServerin vasemmasta palkista **About & Status → Server Status**. ![](img/harjoitus_10/image1.png)
+Avaa GeoServerin yläpalkista **Server → Server Status**. ![](img/harjoitus_10/image1.png)
 
 **Locks**-toiminnon kautta voit tarkistaa olemassa olevat WFS-T -aineistojen lukitukset. Voit tarvittaessa vapauttaa lukitukset painamalla **Free locks**.
 
@@ -30,12 +30,12 @@ Voit tarkistaa ja vapauttaa GeoServerin käyttämää muistia **Memory Usage** k
 
 Tarkista vielä, mitkä Java-asetukset ovat voimassa palvelimessa kuvien käsittelyä varten. Lähtökohtaisesti ei ole kovin tehokasta käsitellä kuvia kokonaisina tietokoneen muistissa. Yleisesti käytetty tapa on jakaa kuvat pienempiin osiin (tiilet/tiles) ja tehdä mahdolliset kuvaoperaattorit pienempiin kuviin. JAI-asetukset (määritelty **Image Processing** -asetuksissa) hallinnoivat näiden menetelmien toimintaa.
 
-JAI (Java Advanced Imaging) asetuksia voit muokata **Settings → Image Processing** -näkymän kautta. 
+JAI (Java Advanced Imaging) asetuksia voit muokata **Server → Image Processing** -näkymän kautta. 
 
 ![](img/harjoitus_10/image2.png)
 
 
-Asetusten muutokset näkyvät **Server Status** -sivulla.
+Asetusten muutokset näkyvät **Server → Server Status** -sivulla.
 
 ## **Raster Access**
 
@@ -53,7 +53,7 @@ Toisin kuin WMS-kuvapyynnöt, WCS-pyynnöt tuottavat mahdollisesti hyvin suuria 
 
 ![](img/harjoitus_10/image3.png)
 
-**Server Status** -näkymän lopussa on palvelimeen liittyviä asetuksia:
+**Server → Server Status** -näkymän lopussa on palvelimeen liittyviä asetuksia:
 
 +-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                               | #### **Muut palvelimen asetukset**                                                                                                                                        |
@@ -77,7 +77,7 @@ Avaa kolmanteen selainikkunaan GeoServerin lokien esikatselu (**GeoServer Logs**
 
 ![](img/harjoitus_10/image4.png)
 
-Tutustu asetuksiin kouluttajan ohjauksella sekä lukemalla lisää tietoa asetuksista GeoServerin manuaalista (**Web Administration Interface → Server → Global Settings**). Avaa manuaali erilliseen selainikkunaan.
+Tutustu asetuksiin lukemalla lisää tietoa asetuksista GeoServerin [manuaalista](https://docs.geoserver.org/main/en/user/configuration/globalsettings/). Avaa manuaali erilliseen selainikkunaan.
 
 Suorita nyt muutamia toimintoja (zoom in, zoom out, pan) karttaikkunassa. 
 
@@ -87,7 +87,7 @@ GeoServerin asennuksessa on valmiina ladattuja erilaisia loki-profiileja, jotka 
 
 ![](img/harjoitus_10/image5.png)
 
-Voit nyt vaihtaa erilaisia lokitus profiileja ja havainnoida toimintojen aiheuttamat vaikutukset lokitiedostoihin. Kokeile asettaa profiiliksi VERBOSE_LOGGING.properties ja liikuttele karttaa. Päivitä tämän jälkeen loki (refresh) ja katso mitä rivejä lokiin on ilmestynyt.
+Voit nyt vaihtaa erilaisia lokitus profiileja ja havainnoida toimintojen aiheuttamat vaikutukset lokitiedostoihin. Kokeile asettaa profiiliksi VERBOSE_LOGGING ja liikuttele karttaa. Päivitä tämän jälkeen loki (refresh) ja katso mitä rivejä lokiin on ilmestynyt.
 
 ## **REST API:n toimintaa**
 
@@ -108,12 +108,12 @@ Kuinka toteuttaisit uuden kuvaustekniikan tallentamisen GeoServeriin REST-rajapi
 :::
 
 ::: hint-box
-Psst! Tutustu REST API:n kuvaukseen GeoServerin ohjeessa.
+Psst! Tutustu REST API:n kuvaukseen GeoServerin [ohjeessa](https://docs.geoserver.org/main/en/user/rest/).
 :::
 
 ## **Monitor-lisäosan käyttö**
 
-GeoServerin **Monitor**-lisäosa on valmiiksi asennettu koulutuspalvelimiin, ja se näkyy päävalikosta alapuolelta. Tällä lisäosalla voidaan tarkastella GeoServerin liikennettä. Voit vapaasti tarkastella mitä Monitor-lisäosalla voi tehdä. Pohdi myös miten se voisi olla hyödyllinen teidän organisaatiossa.
+GeoServerin **Monitor**-lisäosa on valmiiksi asennettu koulutuspalvelimiin, ja se näkyy ylävalikossa oikealla. Tällä lisäosalla voidaan tarkastella GeoServerin liikennettä. Voit vapaasti tarkastella mitä Monitor-lisäosalla voi tehdä. Pohdi myös miten se voisi olla hyödyllinen teidän organisaatiossa.
 
 Avaa **Monitor → Activity**.
 
