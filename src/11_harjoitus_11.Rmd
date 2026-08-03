@@ -26,7 +26,7 @@ Lisäosa toimii niin, että CSS-kielellä kirjoitettava koodi kääntyy SLD-kiel
 
 Luodaan nyt uusi tyyli **tiesto**-tasolle.
 
-Avaa päävalikosta **Styles** ja paina **Add a new style**.
+Avaa ylävalikosta **Data → Styles** ja paina **Add a new style**.
 
 Määrittele uuden tyylin nimeksi **tiesto_css** ja jätä workspace-kohta tyhjäksi. Muista myös valita tyylin formaatiksi CSS.
 
@@ -41,11 +41,11 @@ Valitse **Style Content** valikosta geometriatyypiksi **Line** ja paina **Genera
 }\
 :::
 
-Paina **Save**. Avaa **Styles**-valikosta juuri luomasi tyyli ja valitse **Layer Preview** -välilehti. Valitse esikatseltavaksi tasoksi tiestötaso.
+Paina **Save**. Avaa **Styles**-valikosta juuri luomasi tyyli ja valitse **Layer Preview** -välilehti. Paina "Preview on layer"-kohdan tasoa ja vaihda se tasoon helsinki:hki_tiesto, ellei se ole jo valittuna.
 
 Lähennä karttaa siten, että tiet alkavat näkyä kunnolla.
 
-Pystyt muokkaamaan CSS-koodia myös **Layer Preview** -välilehdellä. Huomaa merkki "**\***". Se tarkoittaa, että sääntö koskee kaikkia kohteita (samoin kuin \*-merkki esimerkiksi tiedostojen listauksessa komentoriviltä). Paina "Preview on layer"-kohdan tasoa ja vaihda se tasoon helsinki:hki_tiesto, ellei se ole jo valittuna.
+Pystyt muokkaamaan CSS-koodia myös **Layer Preview** -välilehdellä. Huomaa merkki "**\***". Se tarkoittaa, että sääntö koskee kaikkia kohteita (samoin kuin \*-merkki esimerkiksi tiedostojen listauksessa komentoriviltä). 
 
 ![](img/harjoitus_11/image1.png)
 
