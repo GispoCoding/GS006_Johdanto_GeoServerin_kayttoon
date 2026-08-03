@@ -32,7 +32,7 @@ Esimerkiksi, **Security**-valikon selaimen URL (missä nyt ollaan) olisi paikall
 
 **Password encryption** määrittää, mikä salauksen tyyli on käytössä salasanojen varastossa: **Plain text**, **Weak PBE** ja **Strong PBE**.
 
-Pidä **Weak PBE** ja paina **Save**.
+Valitse **Weak PBE** ja paina **Save**.
 
 ## **Tunnistautuminen**
 
@@ -46,7 +46,7 @@ Mene nyt takaisin GeoServerin ylläpitosivulle ja paina **Logout**.
 
 Palaa esikatselusivulle ja lataa sivu uudelleen painamalla F5. Sivu latautuu edelleen normaalisti.
 
-Muutetaan asetuksia nyt niin, että palvelujen käyttö vaatii käyttäjältä tunnistautumisen, eivätkä kirjautumattomat käyttäjät pysty enää käyttämään palveluja. Avaa taas **Security → Authentication**, etsi **Filter Chains** ja paina **default**-linkkiä.
+Muutetaan asetuksia nyt niin, että palvelujen käyttö vaatii käyttäjältä tunnistautumisen, eivätkä kirjautumattomat käyttäjät pysty enää käyttämään palveluja. Kirjaudu uudestaan sisään. Avaa **Security → Authentication**, etsi **Filter Chains** ja paina **default**-linkkiä.
 
 Valitse nyt **Chain filters** -kohdasta, **Selected**-laatikosta **anonymous** ja siirrä se **Available**-laatikkoon käyttäen laatikkojen välistä löytyviä siirtonuolia. Anonymous-tunnistautumistyyli sallii palveluiden käytön tunnistautumattomille käyttäjille.
 
@@ -70,7 +70,7 @@ GeoServerin pääsynhallinnassa keskeisessä asemassa ovat käyttäjä-, ryhmä-
 
 Luodaan nyt uusi käyttäjä, jolla on vain oikeuksia käsitellä **helsinki**-workspace:n aineistoa.
 
-Avaa päävalikosta **Security → Users**, **Groups, and Roles**.
+Avaa päävalikosta **Security → Users, Groups, Roles**.
 
 **Services**-välilehdestä löytyvät käyttäjien ja roolien pääsynhallinnan asetukset. Niihin tallennetaan tietoja siitä, ketkä käyttäjät kuuluvat mihinkin ryhmään tai mitä rooleja on ylipäätänsä määritelty pääsynhallinnassa.
 
@@ -146,7 +146,7 @@ Rastita pois **Grant access to any role** ja lisää roolit **Admin** ja **GROUP
 
 Paina lopuksi **Save**.
 
-Tee lopuksi samat muutokset **\*.\*.w** -säännölle.
+Tee lopuksi tarvittaessa samat muutokset **\*.\*.w** -säännölle.
 
 ![](img/harjoitus_12/image11.png)
 
