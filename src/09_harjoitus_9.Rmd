@@ -363,12 +363,12 @@ Paina lopussa **Save**.
 
 Ota uusi karttatiiliruudukko käyttöön samalla tavalla kuin aiemmin.
 
-Avaa **Tile Cache → Tile Layers → taustakartta → Tile Cache**. Ryhmätasoillekin voidaan määritellä karttaruudukkoja.
+Avaa **Tile Cache → Tile Layers → taustakartta → Tile Caching**. Ryhmätasoillekin voidaan määritellä karttaruudukkoja.
 
 Selaa sivun loppuun, josta löydät tiilitysasetukset.
 
-Valitse **Available gridsets** -osion alta **Add grid subsret** -kohdasta uusi **HKI_GK25FIN**-karttatiiliruudukko. Paina vielä **plus**-kuvaketta.
+Valitse **Available gridsets** -osion alta **Add grid subset** -kohdasta uusi **HKI_GK25FIN**-karttatiiliruudukko. Paina vielä **plus**-kuvaketta.
 
 Paina lopulta **Save**.
 
-Näkymästä **Tile Cache → Tile Layers**, esikatsele nyt **ortokartta** uudella karttatiiliruudukolla (valitse esimerkiksi **HKI_GK25FIN/jpeg**). Huomaa, että mittakaavatasoja on vain kymmenen ja ne vastaavat karttatiiliruudukon asetuksissa määriteltyjä mittakaavoja. ![](img/harjoitus_9/image31.png)
+Näkymästä **Tile Cache → Tile Layers**, esikatsele nyt **taustakartta** uudella karttatiiliruudukolla (valitse esimerkiksi **HKI_GK25FIN/jpeg**). Huomaa, että mittakaavatasoja on vain kymmenen ja ne vastaavat karttatiiliruudukon asetuksissa määriteltyjä mittakaavoja. ![](img/harjoitus_9/image31.png)
