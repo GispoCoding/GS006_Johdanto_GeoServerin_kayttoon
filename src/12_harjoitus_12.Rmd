@@ -194,8 +194,6 @@ Loppujen lopuksi on luotu kolme uutta sääntöä, jotka ovat **hki_rooli**lla v
 
 Kirjaudu uudelleen palvelimelle käyttäen **hki_kayttaja**-tunnusta ja tarkista, että **helsinki**-workspacen tasot ovat käytettävissä ja aineiston ylläpitäminenkin onnistuu. Huomaa, että muut workspacet eivät näy lainkaan.\
 
-![](img/harjoitus_12/image15.png)
-
 ## **Karttapalvelukohtaiset oikeudet**
 
 Kirjaudu **admin**-tunnuksella uudelleen GeoServer palvelimelle.

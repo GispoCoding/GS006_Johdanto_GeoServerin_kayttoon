@@ -18,11 +18,11 @@ GeoServeriin on asennettu palvelinkone ja siihen voi muodostaa yhteyden. 
 
 ## **Ominaisuustietosuodattimet**
 
-Avaa **topp:states**-aineisto **Layer Preview** -ikkunaan:
+Mene **Browse Layers**-valikkoon ja avaa **topp:states**-aineiston esikatselu painamalla **OpenLayers**-linkkiä:
 
 ![](img/harjoitus_13/image1.png)
 
-Saat karttaikkunan yläpuolella olevat valikot näkyviin, kun klikkaat kartan vasemmassa ylänurkassa olevaa nappulaa.
+Saat karttaikkunan vasemmalla puolella olevat valikot näkyviin, kun klikkaat kartan vasemmassa ylänurkassa olevaa nappulaa.
 
 Voit suodattaa kartalla näkyviä kohteita **CQL (Common Query Language)**-kyselylausekkeilla. CQL tukee vertailuoperaattoreita kuten = (yhtä suuri kuin), \< (pienempi kuin), \<= (pienempi tai yhtä suuri kuin) ja \<\> (eri kuin). 
 
@@ -54,10 +54,16 @@ Mitkä osavaltiot leikkaavat 100. asteen läntistä pituuspiiriä?
 Psst! Lauseke on muotoa “BBOX(geometriasarake, xmin, ymin, xmax, ymax)”. Osavaltioiden geometria on kentässä “the_geom”.
 :::
 
-GeoServerin dokumentaatiosta löytyy tarkempia kuvauksia (**Tutorials → CQL and ECQL**).
+GeoServerin [dokumentaatiosta](https://docs.geoserver.org/main/en/user/tutorials/cql/cql_tutorial/#simple-comparisons) löytyy tarkempia kuvauksia.
 
-Suodata **topp:states**-tason WMS-palvelua siten, että ainoastaan ne osavaltiot, joiden työttömyysprosentti on alle 5% näkyvät palvelussa.
+::: hint-box
+Suodata **topp:states**-tason WMS-palvelua siten, että ainoastaan ne osavaltiot, joiden työttömyysprosentti on alle 5 % näkyvät palvelussa.
+:::
 
+::: hint-box
 Muodosta topp:states-tasolle kuvaustekniikka, jossa piirretään osavaltioiden keskipisteeseen punainen symboli.
+:::
 
+::: hint-box
 Yhdistä edelliseen kuvaustekniikkaan osavaltioiden rajat harmaalla värillä.
+:::
